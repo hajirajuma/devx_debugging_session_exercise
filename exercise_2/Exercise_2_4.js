@@ -14,7 +14,7 @@ function applyWithdrawal(balance, amount) {
     console.log("Insufficient funds — withdrawal skipped");
     return balance;
   }
-  return balance + amount;
+  return balance - amount;
 }
 
 function processTransactions(startBalance, deposits, withdrawals) {

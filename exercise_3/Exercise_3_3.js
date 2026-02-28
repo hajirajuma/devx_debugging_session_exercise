@@ -33,7 +33,7 @@ function finalGrade(courses) {
     weightedSum  += applyWeighting(avg, c.weight);
     totalWeight  += c.weight;
   }
-  return weightedSum * totalWeight;   
+  return weightedSum / totalWeight;   
 }
 
 const courses = [

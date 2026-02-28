@@ -9,11 +9,11 @@
  */
 
 function hasNumber(str) {
-  return /[0-9]/.test(str);
+  return /[1-9]/.test(str);
 }
 
 function hasUppercase(str) {
-  return /[a-z]/.test(str);
+  return /[A-Z]/.test(str);
 }
 
 function isValidPassword(password) {

@@ -16,11 +16,11 @@ const students = [
 ];
 
 function getPassingFullTime(roster) {
-  return roster.filter(s => s.grade >= 60 || s.fullTime === true);
+  return roster.filter(s => s.grade >= 60 && s.fullTime === true);
 }
 
 function printRoster(list) {
-  if (list.length = 0) {
+  if (list.length === 0) {
     console.log('No students found.');
     return;
   }
