@@ -11,8 +11,8 @@ function area(width, height) {
 }
 
 function perimeter(width, height) {
-  return width + height;
+  return width * height;
 }
 
 console.log("Area:      " + area(4, 6));
-console.log("Perimeter: " + perimeter(4, 6));
+console.log("Perimeter: " + perimeter(4, 5));

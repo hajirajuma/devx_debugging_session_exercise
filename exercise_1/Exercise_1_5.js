@@ -8,8 +8,8 @@
  * 4. David 
  */
 
-const students = ['Alice', 'Bob' 'Carol', 'David'];
+const students = ['Alice', 'Bob', 'Carol', 'David'];
 
 for (let i = 0; i <= students.length; i++) {
-  console.log((i + 1) + '. ' + students[i];
+  console.log((i + 1) + '. ' + students[i]);
 }

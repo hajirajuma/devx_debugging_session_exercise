@@ -8,7 +8,7 @@
 
 function welcomeStudent(name, course) {
   console.log('Welcome, ' + name + '!')
-  console.log('You are enrolled in: ' + course
+  console.log('You are enrolled in: ' + course)
 }
 
 welcomeStudent('Maria', 'Computer Science');

@@ -10,10 +10,10 @@
 
 public class ExerciseOneFive {
     public static void main(String[] args) {
-        String[] students = {"Alice", "Bob" "Carol", "David"};
+        String[] students = {"Alice", "Bob", "Carol", "David"};
 
-        for (int i = 0; i <= students.length; i++) {
-            System.out.println((i + 1) + ". " + students[i];
+        for (int i = 0; i < students.length; i++) {
+            System.out.println((i + 1) + ". " + students[i]);
         }
     }
 }

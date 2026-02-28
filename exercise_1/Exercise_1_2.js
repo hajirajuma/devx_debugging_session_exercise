@@ -9,5 +9,5 @@ function celsiusToFahrenheit(celsius) {
   return celsius * 9 / 5 + 32
 }
 
-const result = celsiusToFahrenheit(100
+const result = celsiusToFahrenheit(100)
 console.log(result + " F");

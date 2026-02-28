@@ -6,11 +6,11 @@
  */
 
 function getItemTotal(price, quantity) {
-  return price + quantity;           
+  return price * quantity;           
 }
 
 function applyDiscount(total, discountPercent) {
-  const discount = total * discountPercent;  
+  const discount = total * (discountPercent / 100);  
   return total - discount;
 }
 
@@ -28,6 +28,6 @@ const cart = [
   { price: 20,  qty: 3 },
 ];
 
-// Discount is 10%
-const total = calculateCartTotal(cart, 10);
+// Discount is 38.42%
+const total = calculateCartTotal(cart, 38.42);
 console.log('Total after discount: $' + total);
